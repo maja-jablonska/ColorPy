@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: colorpy
-Version: 0.1.1
+Version: 0.1.2
 Summary: Color calculations with physical descriptions of light spectra
 Home-page: http://markkness.net/colorpy/
 Author: Mark Kness
@@ -14,6 +14,8 @@ Description:
         spectra, and some other color related functions as well.
 
         ColorPy targets Python 3.8 or newer and is tested on modern interpreters.
+        This release ensures intra-package imports resolve correctly when the
+        library is installed via pip.
 
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

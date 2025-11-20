@@ -26,7 +26,7 @@ long_description = (Path(__file__).parent / 'README.txt').read_text(encoding='ut
 
 setup (
     name='colorpy',
-    version='0.1.1',
+    version='0.1.2',
     description='Color calculations with physical descriptions of light spectra',
     long_description=long_description,
     long_description_content_type='text/plain',

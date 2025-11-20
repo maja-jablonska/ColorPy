@@ -14,7 +14,7 @@ ColorPy targets Python 3.8+ and is tested with modern interpreters up to Python 
 A taste of the plots that ColorPy can create: RGB values for the pure spectral lines.
 <p>
 
-Version 0.1.1.
+Version 0.1.2.
   Changes from 0.1.0:
     Various things I did on my local machine.
     A better shark fin plot, for example.

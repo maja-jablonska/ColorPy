@@ -1,4 +1,4 @@
-*** ReadMe for ColorPy 0.1.1. ***
+*** ReadMe for ColorPy 0.1.2. ***
 
 ColorPy is a Python package that can convert physical descriptions of light -
     spectra of light intensity vs. wavelength - into RGB colors that can
