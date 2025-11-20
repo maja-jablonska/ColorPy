@@ -28,8 +28,8 @@ import math
 import numpy
 import unittest
 
-import blackbody
-import colormodels
+from . import blackbody
+from . import colormodels
 
 # FIXME: The following calculation is not working currently.
 # It is an attempt to get the scale of the intensity correct.

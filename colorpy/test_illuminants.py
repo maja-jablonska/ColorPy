@@ -26,7 +26,7 @@ from __future__ import print_function
 
 import unittest
 
-import illuminants
+from . import illuminants
 
 
 class TestIlluminants(unittest.TestCase):

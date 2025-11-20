@@ -27,8 +27,8 @@ from __future__ import print_function
 import math, random, numpy
 import unittest
 
-import colormodels
-import ciexyz
+from . import colormodels
+from . import ciexyz
 
 # Functions to calculate the cutoff point between various algorithms.
 # These do not really belong here...
