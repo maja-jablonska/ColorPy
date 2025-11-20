@@ -1,4 +1,4 @@
-*** ReadMe for ColorPy 0.1.0. ***
+*** ReadMe for ColorPy 0.1.1. ***
 
 ColorPy is a Python package that can convert physical descriptions of light -
     spectra of light intensity vs. wavelength - into RGB colors that can
@@ -31,9 +31,10 @@ Installation:
 To install ColorPy from the source distributions (.zip on Windows,
 or .tar.gz on Linux) you must first unpack the distribution.
 
-Then, from the directory in which the files are unpacked, run:
+ColorPy targets Python 3.8 or newer. From the directory in which the files
+are unpacked, run:
 
-	python setup.py install
+        python -m pip install .
 
 It is possible that you may need to supply a path to the Python executable.
 You also probably will need administrator privileges to do this.
