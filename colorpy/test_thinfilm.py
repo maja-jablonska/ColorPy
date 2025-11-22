@@ -27,8 +27,8 @@ from __future__ import print_function
 import random
 import unittest
 
-import illuminants
-import thinfilm
+from . import illuminants
+from . import thinfilm
 
 
 class TestThinFilm(unittest.TestCase):

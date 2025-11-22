@@ -27,7 +27,7 @@ from __future__ import print_function
 import random
 import unittest
 
-import ciexyz
+from . import ciexyz
 
 
 class TestCiexyz(unittest.TestCase):

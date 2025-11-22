@@ -42,13 +42,13 @@ GNU Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with ColorPy.  If not, see <http://www.gnu.org/licenses/>.
 '''
-import colormodels
-import illuminants
-import plots
-import blackbody
-import rayleigh
-import thinfilm
-import misc
+from . import colormodels
+from . import illuminants
+from . import plots
+from . import blackbody
+from . import rayleigh
+from . import thinfilm
+from . import misc
 
 def figures ():
     '''Create all the ColorPy sample figures.'''

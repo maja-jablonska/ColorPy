@@ -65,11 +65,11 @@ along with ColorPy.  If not, see <http://www.gnu.org/licenses/>.
 import math
 import numpy, pylab
 
-import colormodels
-import ciexyz
-import illuminants
-import blackbody
-import plots
+from . import colormodels
+from . import ciexyz
+from . import illuminants
+from . import blackbody
+from . import plots
 
 def rayleigh_scattering (wl_nm):
     '''Get the Rayleigh scattering factor for the wavelength.
